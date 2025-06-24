@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+  }
+  
+  body {
+    background-image: url('../img/4b3c2faa3cfd80751ece48dd54a8a2f9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    background: #fff8dce0; /* amarelo pastel */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 420px;
+    border: 1.5px solid #c6a700;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #4a3f00;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #4a3f00;
+    font-size: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 22px;
+    border: 2px solid #d4aa00;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #ffffff;
+    color: #2c2c2c;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #999;
+  }
+  
+  input:focus {
+    border-color: #c6a700;
+    box-shadow: 0 0 6px #f8e98d;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #ffda75;
+    color: #4a3f00;
+    padding: 14px;
+    border: none;
+    border-radius: 14px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(244, 197, 66, 0.5);
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.05em;
+  }
+  
+  button:hover {
+    background-color: #ffde58;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 0.9rem;
+    color: #4a3f00;
+    font-style: italic;
+  }
+  
+  .footer-text a {
+    color: #c6a700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+    color:  #c6a700;
+  }
+  
+  .mensagem {
+    display: none;
+    text-align: center;
+    font-weight: 600;
+    color: #4a3f00;
+    font-size: 1.2rem;
+  }
+  
+  #voltarBtn {
+    margin-top: 22px;
+    background-color: #cb425d;
+    padding: 12px 28px;
+    border-radius: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(203, 66, 93, 0.4);
+    transition: background-color 0.3s ease;
+  }
+  
+  #voltarBtn:hover {
+    background-color: #a3364c;
+  }
+  
+  .footer-corner-img {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 100;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
